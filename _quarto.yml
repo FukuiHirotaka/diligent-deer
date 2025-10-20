@@ -14,7 +14,7 @@ project:
     navigate: true
 
 website:
-  title: "Quarto Research Blog"
+  title: "The African Debt Database Project: Exploring Macroeconomic Volatility and Financial Frictions in Sub-Saharan Africa"
   favicon: static/favicon.svg
   navbar:      
     right:
