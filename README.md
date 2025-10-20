@@ -10,7 +10,7 @@ The diligent deer teaches us that quiet persistence often accomplishes more than
 
 Claude generated this essay.
 
-This entire repository is created and operated based on two ideas by Dr. Kazuharu Yanagimoto:  
+This entire repository is created and operated based on two ideas by [Dr. Kazuharu Yanagimoto](https://kazuyanagimoto.com/):  
 - [**"Research Workflow with Quarto + {targets}"**](https://kazuyanagimoto.com/blog/2025/0426_research_workflow/)  
 - [**"Researching as if to Blog"**](https://kazuyanagimoto.com/blog/2024/04/05/)
 
