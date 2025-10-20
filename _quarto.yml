@@ -18,12 +18,14 @@ website:
   favicon: static/favicon.svg
   navbar:      
     right:
-      - text: Slides
-        href: slides/index.qmd
-      - text: Manuscript
-        href: manuscript/main.pdf
+      - icon: globe
+        href: https://fukuihirotaka.github.io/
+      - icon: envelop
+        href: mailto:227e127e@gsuite.kobe-u.ac.jp
+      - icon: {{< ai orcid >}} 
+        href: https://orcid.org/0009-0004-9796-9148
       - icon: github
-        href: https://github.com/kazuyanagimoto/quarto-research-blog
+        href: https://github.com/FukuiHirotaka/diligent-deer
 format:
   html:
     theme:
