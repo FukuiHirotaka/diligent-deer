@@ -1,0 +1,42 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!manuscript/"
+    - "!README.qmd"
+  resources:
+    - manuscript/_book/
+    - manuscript/main.pdf
+
+  preview: 
+    port: 3333
+    watch-inputs: true
+    navigate: true
+
+website:
+  title: "Quarto Research Blog"
+  favicon: static/favicon.svg
+  navbar:      
+    right:
+      - text: Slides
+        href: slides/index.qmd
+      - text: Manuscript
+        href: manuscript/main.pdf
+      - icon: github
+        href: https://github.com/kazuyanagimoto/quarto-research-blog
+format:
+  html:
+    theme:
+      - journal
+      - static/custom.scss
+
+execute: 
+  freeze: auto
+
+knitr:
+  opts_chunk: 
+    fig.align: center
+    fig.retina: 3
+    fig.width: 6
+    fig.height: 3.708
+    dev: svg
